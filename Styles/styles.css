@@ -120,7 +120,7 @@ body, html {
     height: 250px;
   }
   .explorer-title {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     margin: 0;
   }
   .explorer-subtitle {
@@ -142,7 +142,7 @@ body, html {
   border-radius: 100px;
   color: white;
   background-color: #686868;
-  background-image: linear-gradient(0deg, #9356DC, #FF79DA);
+  background-image: linear-gradient(0deg, #ae80e5, #ff86de);
   cursor: pointer;
   transition-duration: 0.25s;
   box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
@@ -222,6 +222,13 @@ body, html {
   background-color: #f6f6f6;
   display: flex;
   position: relative;
+  cursor: pointer;
+}
+.filtre-step:hover {
+  background: #f2eafb;
+}
+.filtre-step:hover > .fas {
+  color: #9356DC;
 }
 @media (min-width: 180px) and (max-width: 63.9rem) {
   .filtre-step {
@@ -282,6 +289,10 @@ body, html {
 .filtre-icon {
   margin-right: 1rem;
   color: #7e7e7e;
+}
+
+#main {
+  background: white;
 }
 
 .restaurants {
@@ -400,7 +411,7 @@ body, html {
 }
 .card-like {
   transition: 0.25s;
-  background-color: white;
+  background-color: #f6f6f6;
   position: absolute;
   top: 0;
   left: 0;
@@ -420,6 +431,11 @@ body, html {
 
 .footer {
   background-color: #353535;
+}
+@media (min-width: 64rem) {
+  .footer {
+    padding-top: 25px;
+  }
 }
 .footer .container {
   display: flex;
@@ -604,7 +620,7 @@ body, html {
 }
 .menu-like {
   transition: 0.25s;
-  background-color: white;
+  background-color: #f6f6f6;
   position: absolute;
   top: 0;
   left: 0;
@@ -626,6 +642,7 @@ body, html {
   .menu-elements {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 1rem;
+    padding-bottom: 25px;
   }
 }
 
@@ -732,7 +749,7 @@ body, html {
   border-radius: 100px;
   color: white;
   background-color: #686868;
-  background-image: linear-gradient(0deg, #9356DC, #FF79DA);
+  background-image: linear-gradient(0deg, #ae80e5, #ff86de);
   cursor: pointer;
   transition-duration: 0.25s;
   box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);

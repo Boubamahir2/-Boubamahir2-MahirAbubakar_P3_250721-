@@ -96,7 +96,7 @@ body, html {
   @media (min-width:64rem){
     height: 250px;
     &-title {
-      font-size:2.5rem ;
+      font-size:2.2rem ;
       margin: 0;
     }
   
@@ -151,6 +151,7 @@ body, html {
 .filtre {
   padding: ( $appPadding + 1rem ) $appPadding;
   margin: 20px 0;
+  
   @media (min-width:100px) and (max-width:179px){
     font-size: 0.5rem;
 
@@ -200,7 +201,14 @@ body, html {
     background-color: $backgroundlocation;
     display: flex;
     position: relative;
-    
+    cursor: pointer;
+    &:hover{
+      background:lighten($color-primary, 35%) ;
+    }
+    &:hover> .fas{
+      color:$color-primary;
+    }
+   
     @media (min-width:180px) and (max-width:63.9rem) {
       padding:1rem;
       font-size: 1rem;
@@ -261,13 +269,16 @@ body, html {
       }
     }
   }
+ 
 
   &-icon {
     margin-right: 1rem;
     color: #7e7e7e;
   }
 }
-
+#main{
+  background: white;
+}
 .restaurants {
   background-color:$backgroundlocation;
   padding: ($appPadding + 1rem) $appPadding;
@@ -375,6 +386,9 @@ body, html {
 
 .footer {
   background-color:$footercolor;
+  @media (min-width:64rem){
+    padding-top: 25px;
+  }
   
   .container {
     display: flex;
@@ -383,6 +397,8 @@ body, html {
     @media (min-width:64rem) {
       font-size: 1.4rem;
       padding:20px 40px ;
+     
+     
     }
   }
   
