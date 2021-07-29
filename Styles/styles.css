@@ -150,6 +150,7 @@ body, html {
 .explorer-btn:hover {
   background-color: white;
   box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  background: linear-gradient(0deg, #935cd6 0%, #ff66d4 100%);
 }
 .explorer-btn a {
   text-decoration: none;
@@ -757,6 +758,7 @@ body, html {
 .order-Btn:hover {
   background-color: white;
   box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  background: linear-gradient(0deg, #935cd6 0%, #ff66d4 100%);
 }
 .order-Btn a {
   text-decoration: none;
