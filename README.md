@@ -1,6 +1,5 @@
 # Projet_3 Openclassroom
 ## le site web est dynammique
-des sites
 
 lienDepage:https://bouba-ohmyfood.netlify.app/
 
