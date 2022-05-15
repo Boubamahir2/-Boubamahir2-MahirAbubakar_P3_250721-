@@ -1,5 +1,9 @@
 # Projet_3 Openclassroom
-lienDepage: https://boubamahir2.github.io/MahirAbubakar_P3_270621/
+## le site web est dynammique
+des sites
+
+lienDepage:https://bouba-ohmyfood.netlify.app/
+j'ai redéployé le site sur netlify depuis github pour qu'on puise l'utiliser car github ne gere pas des sites dynamique
 
 ## Marque IDENTITE
 Ohmyfood! est une entreprise de commande de repas en ligne. Notre concept permet aux utilisateurs de composer leur propre menu et réduire leur temps d’attente dans les restaurants car leur menu est préparé à l’avance. Plus de perte de temps à consulter la carte !
